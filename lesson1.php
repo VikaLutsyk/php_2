@@ -24,6 +24,9 @@
             $this->sale = $sale;
             $this->brand = $brand;
             $this->show();
+        } 
+        public function show() {
+            echo $this->name . " <b>\"" . $this->brand . "\"</b>" . "размер " . $this->size . "<br>";
         }
     }
     
